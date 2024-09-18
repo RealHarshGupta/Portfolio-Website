@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/487c841d67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav class="sticky">
+            <img  src="images/HARSH-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-content">
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span class="name">Harsh</span> Gupta <br>From Delhi,India </h1>
+            </div>
+            <img src="./images/IMG-20240804-WA0032-removebg-preview-removebg-preview.png" alt="">
+        </div>
+        
+
+    </div>
+    
+</div>
+
+<!-- ---------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/myimg.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>👋 Hello! I'm Harsh Gupta, a dedicated BCA student at IITM, Janakpuri, with a
+                    passion for leveraging technology to create impactful solutions. 💻 With a
+                    strong foundation in web development and proficiency in tools like Excel
+                    and Word, I am equipped to tackle diverse challenges in the digital realm.
+                    Student at IITM, janakpuri | Web Developer |AI enthusiastic |Intern/Trainee at
+                    D/o Biotechnology, National Informatics Centre
+                    |Node.js|Express.js,SQL,React.js</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analyst by Python</span><br>Data Anaylsis by matplotlib,pandas,numpy</li>
+                            <li><span>Web Development</span><br>Desiging web/app intertfaces</li>
+
+                  
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Trainee/Intern <br>July 23 - Aug 23</span><br>Trainee at D/o Biotechnology , National Informatics Center</li>
+                            <!-- <li><span>Design Head<br>Currently </span><br>Design Head at Geekroom chapter_IITM </li> -->
+                            <li><span>Trainee,Acmegrade pvt ltd <br>Dec 23 - Jan 24 </span><br>Trainee/Intern at Acmegrade pvt ltd </li>
+                            <li><span>Trainee/Intern <br>Jan 24 -Aug 24 </span><br>Trainee/Intern at Metafiser</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Institute of Information Technology and Managment<br>2022-2025</span><br>Bachleor of Computer Applications</li>
+                            <li><span>Web Development Course by Anegla Yu</span><br>Full stack web develoment course by Angela Yu Trainer from udemy</li>
+                            
+                  
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python fa-2xl" style="color: #FFD43B;"></i>
+                <h2>Data Analyst</h2>
+                <p>"Data analysts leverage statistical techniques and data visualization tools to derive actionable insights from large datasets.
+                     They help businesses make informed decisions by identifying trends, patterns, and key performance indicators.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code fa-2xl" style="color: #FFD43B;"></i>
+                <h2>Web Developer</h2>
+                <p>Web developers design and build responsive websites using modern programming languages and frameworks. They ensure seamless user experiences by creating dynamic, 
+                    fast-loading web applications that are optimized for both performance and security.</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+
+<!-- -------------------portfolio------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/img1.jpg">
+                <div class="layer">
+                    <h3>Joke API</h3>
+                    <p>JokeAPI is a RESTful API that allows users to retrieve, create, update, and delete jokes.
+                         The API supports a variety of joke types and provides endpoints for filtering jokes based on their type.</p>
+                    <a href="https://github.com/RealHarshGupta/jokeAPI"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/img2.jpg">
+                <div class="layer">
+                    <h3>Celebrity Face Recognition</h3>
+                    <p>This project uses machine learning to recognize and label celebrities in YouTube videos.
+                         The recognized faces are then saved into separate video files named after the detected celebrity.</p>
+                    <a href="https://github.com/RealHarshGupta/Celebrity-Face-Recognition"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/img3.jpg">
+                <div class="layer">
+                    <h3>Book-Notes</h3>
+                    <p>Book Notes is a web application that allows users to view and manage book details and notes. 
+                        Built with Node.js, Express.js, and PostgreSQL, the app dynamically renders book information on the homepage using EJS templating.</p>
+                    <a href="https://github.com/RealHarshGupta/Book-Notes"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://github.com/realharshgupta" class="btn"> see more</a>
+    </div>
+</div>
+
+<!-- -------------------contact----------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p> <i class="fa-regular fa-paper-plane"></i> harshgupta7104@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9871408667</p>
+                <div class="social-icons">
+                   
+                    <a href="https://www.instagram.com/harshguptaaa1500?igsh=MXExZ3VrOXhzaDRjNQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/harsh-gupta-22a24a286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/realharshgupta"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a class="btn" href="./Resume_final.pdf" download >Download Resume></a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" id="myform">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+          <p>Copyright <span>Harsh@2024</span></p>
+    </div>
+ </div>
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents =document.getElementsByClassName('tab-contents');
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link');
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab');
+            
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+
+</script>
+
+<script>
+    var sidemenu= document.getElementById('sidemenu')
+    function openmenu(){
+      sidemenu.style.right='0';
+    }
+    function closemenu(){
+      sidemenu.style.right='-250px';
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz8cV7FeU0hE_RPjlMqCAdjktGfQ4UBcXDFxd7sMQuZnqVoptwTQD89U3wrCnnoWzY/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML='Message sent succesfully'
+            setTimeout(function (p) {
+                msg.innerHTML=''
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
