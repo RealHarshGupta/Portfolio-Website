@@ -1,7 +1,7 @@
 # Portfolio-Website
 
 
-**Title:** Harsh Gupta - Web Developer Portfolio
+**Title:** Harsh Gupta - Portfolio
 
 **Description:** This website showcases the skills and experience of Harsh Gupta, a BCA student at IITM, Janakpuri, passionate about web development. 
 
@@ -27,7 +27,7 @@
 Feel free to reach out to Harsh Gupta for any inquiries or project collaborations.
 
 * Email: harshgupta7104@gmail.com
-* Portfolio: [Link to your portfolio website (if different)]
+* Portfolio: [https://portfolio-website-y8hk.onrender.com]
 
 
 
